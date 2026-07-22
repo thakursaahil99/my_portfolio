@@ -8,23 +8,26 @@ const experiences = [
     company: "Freelance",
     year: "2026 — Present",
     stack: ["Next.js", "Laravel", "Python Flask"],
-    desc: "Working independently on full-stack web applications using Next.js and Laravel, with Python Flask for backend services and API development.",
+    desc: "Working independently on full-stack web applications, building scalable interfaces, APIs, and modern digital solutions using Next.js, Laravel, and Python Flask.",
   },
+
   {
-    role: "Laravel Developer",
+    role: "Magento & Laravel Developer",
     company: "Technodeft",
-    year: "2024 — 2026",
-    stack: ["Laravel", "MySQL", "Next.js"],
-    desc: "Built REST APIs, admin dashboards, and backend systems using Laravel, while extending into frontend development with Next.js.",
+    year: "2023 — 2026",
+    stack: ["Magento 2", "Laravel", "PHP", "MySQL"],
+    desc: "Developed Magento 2 eCommerce solutions, custom modules, Laravel APIs, admin dashboards, and backend systems while working on performance optimization and scalable applications.",
   },
+
   {
-    role: "Magento Developer",
-    company: "Technodeft",
-    year: "2024 — 2026",
-    stack: ["Magento 2", "PHP", "Tailwind CSS"],
-    desc: "Delivered Magento 2 eCommerce projects, custom modules, and performance optimization across multiple client stores.",
+    role: "Web Development Intern / Trainee",
+    company: "Training & Internship",
+    year: "2022 — 2023",
+    stack: ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+    desc: "Completed web development training and internship focused on frontend fundamentals, backend development, database concepts, and building real-world web projects.",
   },
 ];
+
 
 export default function Experience() {
   return (
@@ -35,7 +38,7 @@ export default function Experience() {
             Experience
           </h2>
           <p className="text-center text-gray-400 text-lg mb-24 md:mb-32 max-w-md mx-auto">
-            A journey through roles, stacks, and shipped work since 2024.
+            A journey through roles, stacks, and shipped work since 2021.
           </p>
         </FadeUp>
 

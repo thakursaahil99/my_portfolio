@@ -15,22 +15,22 @@ const navLinks = [
 const socialLinks = [
   {
     name: "GitHub",
-    href: "https://github.com/your-github",
+    href: "https://github.com/thakursaahil99",
     icon: FiGithub,
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/in/your-linkedin",
+    href: "https://www.linkedin.com/in/sahil-thakur",
     icon: FiLinkedin,
   },
   {
     name: "Email",
-    href: "mailto:your@email.com",
+    href: "mailto:sahilthakur961999@gmail.com",
     icon: FiMail,
   },
   {
     name: "Phone",
-    href: "tel:+91XXXXXXXXXX",
+    href: "tel:+919805338877",
     icon: FiPhone,
   },
 ];
@@ -100,13 +100,13 @@ export default function Footer() {
                     }
                     rel={
                       social.href.startsWith("http")
-                        ? "noreferrer"
+                        ? "noopener noreferrer"
                         : undefined
                     }
                     aria-label={social.name}
                     className="flex items-center justify-center w-10 h-10 rounded-full border border-white/10 bg-white/5 text-gray-400 hover:text-white hover:border-blue-500 hover:bg-blue-500/10 transition-all duration-300 hover:-translate-y-1"
                   >
-                    <Icon size={16} />
+                    <Icon size={18} />
                   </a>
                 );
               })}

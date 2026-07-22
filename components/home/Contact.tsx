@@ -41,7 +41,7 @@ export default function Contact() {
         <FadeUp delay={0.15}>
           <div className="mt-10 flex justify-center">
             <a
-              href="mailto:your@email.com"
+              href="mailto:sahilthakur961999@email.com"
               className="group inline-flex items-center gap-3 rounded-full bg-blue-500 px-7 py-4 font-medium text-white transition hover:bg-blue-600"
             >
               <FiMail />
@@ -55,7 +55,7 @@ export default function Contact() {
         <FadeUp delay={0.25}>
           <div className="mt-16 grid gap-6 md:grid-cols-3">
             <a
-              href="tel:+91XXXXXXXXXX"
+              href="tel:+919805338877"
               className="group rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:border-blue-500/40 hover:bg-white/10"
             >
               <FiPhone className="text-3xl text-blue-400 mb-4" />
@@ -63,12 +63,12 @@ export default function Contact() {
               <h3 className="text-lg font-semibold text-white">Phone</h3>
 
               <p className="mt-2 text-gray-400">
-                +91 XXXXX XXXXX
+                +919805338877
               </p>
             </a>
 
             <a
-              href="https://github.com/your-github"
+              href="https://github.com/thakursaahil99"
               target="_blank"
               rel="noreferrer"
               className="group rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:border-blue-500/40 hover:bg-white/10"
@@ -83,7 +83,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://linkedin.com/in/your-linkedin"
+              href="https://www.linkedin.com/in/sahil-thakur"
               target="_blank"
               rel="noreferrer"
               className="group rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:border-blue-500/40 hover:bg-white/10"
